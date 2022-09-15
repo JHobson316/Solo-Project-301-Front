@@ -7,8 +7,8 @@ export default function Event() {
     }
     return (
         <>
-            <label for="eName">Event Name</label>
-            <input id='eName' type="text" placeholder="Event Name"/>
+            <label for="eName">Event Name: </label>
+            <input id='eName' type="text" />
             <input id='eDate' type="date" placeholder="Event Date"/>
             <input id="eDescription" type="text" placeholder="Event Description"/>
             <button onClick={handleAddEvent}>Add Event</button>

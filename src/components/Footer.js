@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
       return (
         <div>
-          <h4>Hourglass ©</h4>
+          <h4>Hourglass Inc. ©</h4>
         </div>
       )
     }
