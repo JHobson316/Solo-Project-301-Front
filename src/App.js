@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Event from './components/Event'
+import Board from './components/Board'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -8,9 +9,9 @@ export default class App extends Component {
     super(props)
 
     this.state = {
-      eventName: "",
-      eventDate: "",
-      eventDescription: ""
+      eName: "",
+      eDate: "",
+      eDescription: ""
     }
   }
 
@@ -19,6 +20,7 @@ export default class App extends Component {
       <>
         <Header />
         <Event />
+        <Board />
         <Footer />
       </>
     )
